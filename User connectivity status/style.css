@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.title{
+    font-size: 30px;
+}
+
+ul{
+    position: relative;
+    left: 30px;
+}
+
+.reload{
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background-color: #666;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
